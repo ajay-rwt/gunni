@@ -15,6 +15,7 @@ public class PropertyConfiguredClass {
 
     public void setName(Name name) {
         this.name = name;
+	System.out.println();
     }
 
 }
