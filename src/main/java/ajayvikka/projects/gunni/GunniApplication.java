@@ -67,6 +67,7 @@ public class GunniApplication {
 		AlternateConfig altConfig = (AlternateConfig)appContext.getBean("alternateConfig");
 		altConfig.displayName();
 		System.out.println("___________SAMPLE OUTPUT___________");
+		System.out.println("Testing conflicts in github!");
 	}
 
 }
