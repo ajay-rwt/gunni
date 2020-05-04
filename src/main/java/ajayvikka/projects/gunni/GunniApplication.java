@@ -66,7 +66,6 @@ public class GunniApplication {
 		System.out.println("*********************CONDITIONALLY CONFIGURED BEAN : "+appContext.getBean("ccb2"));
 		AlternateConfig altConfig = (AlternateConfig)appContext.getBean("alternateConfig");
 		altConfig.displayName();
-		System.out.println();
 
 	}
 
