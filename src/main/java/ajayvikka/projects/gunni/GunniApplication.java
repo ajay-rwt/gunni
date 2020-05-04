@@ -67,7 +67,6 @@ public class GunniApplication {
 		AlternateConfig altConfig = (AlternateConfig)appContext.getBean("alternateConfig");
 		altConfig.displayName();
 		System.out.println("Testing conflicting merge in github");
-
 	}
 
 }
